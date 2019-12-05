@@ -22,14 +22,14 @@
 						Food
 					</span>
 				</div>
-				<div class="navbar__menu">
-					<ul class="navbar__list">
-						<li><a href="#" class="navbar__item">О нас</a></li>
-						<li><a href="#" class="navbar__item">Меню</a></li>
-						<li><a href="#" class="navbar__item">Доставка</a></li>
-						<li><a href="#" class="navbar__item">Оплата</a></li>
-						<li><a href="#" class="navbar__item">Акции</a></li>
-						<li><a href="#" class="navbar__item">Контакты</a></li>
+				<div class="navbar-menu">
+					<ul class="navbar-menu__list">
+						<li><a href="#" class="navbar-menu__item">О нас</a></li>
+						<li><a href="#" class="navbar-menu__item">Меню</a></li>
+						<li><a href="#" class="navbar-menu__item">Доставка</a></li>
+						<li><a href="#" class="navbar-menu__item">Оплата</a></li>
+						<li><a href="#" class="navbar-menu__item">Акции</a></li>
+						<li><a href="#" class="navbar-menu__item">Контакты</a></li>
 					</ul>
 				</div>
 				<div class="navbar__location">
@@ -83,7 +83,7 @@
 					</div>
 				</div>
 				<div class="hero-image">
-					<img src="img/hero-img.png" alt="" class="hero-image__image">
+					<img src="img/hero-img.png" alt="" class="hero__image">
 				</div>
 			</div>
 	</section>
@@ -92,11 +92,28 @@
 			<div class="offer-block">
 				<h2 class="title offer__title">Индивидуальное меню</h2>
 				<p class="offer__info">Для составления персонального меню, запоните анкету:</p>
-				<div class="offer-form">
-					<div class="offer-form__question">
-						<span class="offer-form__number">1</span>
-						<span class="offer-form__type">Пол*</span>
+				<div class="offer__form-1">
+					<div class="question offer__question-1">
+						<span class="offer__number">1</span>
+						<span class="offer__type">Пол*</span>
 					</div>
+					<form class="offer__btn">
+						<button class="color offer__green">Мужской</button>
+						<button class="color offer__pink">Женский</button>
+						<img src="img/arrow-1.png" alt="" class="offer__arrow1">
+					</form>
+				</div>
+				<img src="img/squash.png" alt="" class="offer__squash">
+				<div class="offer__form-2">
+					<div class="question offer__question-2">
+						<span class="offer__number">2</span>
+						<span class="offer__type">Возраст*</span>
+					</div>
+					<form class="input offer__input">
+						<label class="offer__label">
+							<input type="text" class="offer__old"><span class="offer__span">лет</span>
+						</label>
+					</form>
 				</div>
 			</div>
 		</div>
