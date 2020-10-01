@@ -1,0 +1,138 @@
+
+.blockI
+    margin: auto
+    position: relative
+    background-image: url('../img/blockI-sliderA.png')
+    background-repeat: no-repeat
+    background-size: cover
+    &__slideA
+        height: 100%
+        width: 100%
+        display: flex
+        padding-top: 364px
+        &:focus
+            outline: none
+    &-content
+        width: 810px
+        background-color: #ffffff
+        padding: 32px 90px 8px 64px
+        
+        &__button
+            display: flex
+            font-size: 15px
+            color: #D71921
+            &:hover
+                color: #da484f
+        &__number
+            display: block
+            color: #999999
+            padding-bottom: 52px
+        &__title
+            padding-bottom: 40px
+        &__subtitle
+            display: block
+            width: 676px
+            line-height: 24px
+            padding-bottom: 20px
+        &__color
+            color: #D71921
+    &__color 
+        display: block
+        transition: 0.3s
+        &:hover
+            padding-right: 10px
+    &-arrows
+        width: 169px
+        position: absolute
+        margin: auto
+        top: 365px
+        left: 965px
+        display: flex
+        justify-content: space-around
+        height: 72px
+        background-color: #D71921
+        &__left
+            cursor: pointer
+            background-color: #D71921
+            border: none
+            &:focus
+                outline: none
+        &__right
+            cursor: pointer
+            background-color: #D71921
+            border: none
+            &:focus
+                outline: none
+
+@media ( max-width: 1680px )
+    .blockI
+        &-arrows
+            top: 365px
+            left: 965px
+@media ( max-width: 1600px )
+    .blockI
+        &-arrows
+            top: 364px
+            left: 804px
+        &-content
+            width: 650px
+@media ( max-width: 1440px )
+    .blockI
+        &-arrows
+            top: 364px
+            left: 704px
+        &-content
+            width: 550px
+            &__title
+                font-size: 36px
+            &__subtitle
+                width: 550px
+@media ( max-width: 1400px )
+    .blockI
+        &-arrows
+            top: 364px
+            left: 704px
+        &-content
+            width: 550px
+            &__title
+                font-size: 36px
+            &__subtitle
+                width: 550px
+@media ( max-width: 1280px )
+    .blockI
+        &-arrows
+            top: 364px
+            left: 704px
+@media ( max-width: 1200px )
+    .blockI
+@media ( max-width: 1010px )
+    .blockI
+        &-arrows
+            top: 292px
+            left: 535px
+@media ( max-width: 740px )
+    .blockI
+        background-image: none
+        &-arrows
+            width: 120px
+            height: 50px
+            z-index: 5
+            top: 480px
+            left: 40px
+        &__slideA
+            padding-top: 50px
+        &-content
+            padding: 32px 90px 8px 30px
+            width: 300px
+            &__title
+                text-align: center
+                font-size: 30px
+            &__subtitle
+                text-align: center
+                width: 300px
+            &__button
+                margin: auto
+                margin-bottom: 130px
+                justify-content: center
+
+    

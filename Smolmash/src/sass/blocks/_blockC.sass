@@ -1,0 +1,224 @@
+.sectionC
+    background-image: url('../img/triangle.png')
+    background-repeat: no-repeat
+    background-position-y: 40px
+.blockC
+    display: flex
+    justify-content: space-around
+    background-image: url('../img/main-decor.png')
+    background-repeat: no-repeat
+    background-position-x: 62%
+    &-contentA
+        padding-bottom: 0
+    &-text
+        padding-top: 240px
+        padding-right: 400px
+        &__title
+            line-height: 72px
+            letter-spacing: 0.1em
+            padding-bottom: 40px
+        &__color
+            color: #D71921
+        &__subtitle
+            display: block
+            margin-top: 40px
+            width: 556px
+            font-size: 15px
+            padding-bottom: 40px
+            line-height: 24px
+        &__button
+            display: flex
+            padding-bottom: 68px
+            font-size: 15px
+            color: #D71921
+            &:hover
+                color: #da484f
+        &__image
+            display: block
+    &-color 
+        display: block
+        transition: 0.3s
+        &:hover
+            padding-right: 10px
+    &__C 
+        padding-top: 184px
+        display: flex
+        flex-direction: column
+    &-content
+        padding-bottom: 52px
+        display: flex
+        align-items: center
+        &__image
+            width: 68px
+            height: 68px
+            -moz-transition: all 0.5s ease-out
+            -o-transition: all 0.5s ease-out
+            -webkit-transition: all 0.5s ease-out
+            &:hover
+                -webkit-transform: scale(1.2)
+                -moz-transform: scale(1.2)
+                -o-transform: scale(1.2)
+    &-block
+        margin-left: 24px
+        display: flex
+        flex-direction: column
+        &__title
+            margin-bottom: 4px
+            display: block
+            font-family: 'Roboto-Bold'
+            font-size: 15px
+        &__subtitle 
+            display: block
+            font-size: 13px
+            line-height: 20px
+            width: 290px
+
+
+@media ( max-width: 1680px )
+    .container
+        max-width: 1600px
+        width: 95%
+        margin: auto
+
+@media ( max-width: 1600px )
+    .container
+        max-width: 1520px
+        width: 95%
+        margin: auto
+    .sectionC
+    .blockC
+        &-text
+            &__title
+            &__subtitle
+            &__button
+
+@media ( max-width: 1440px )
+    .container
+        max-width: 1340px
+        width: 95%
+        margin: auto
+    .sectionC
+    .blockC
+        background-position-x: 50%
+        background-size: 50%
+        &-text
+            padding-top: 200px
+            padding-right: 100px
+            &__title
+                font-size: 48px
+                line-height: 53px
+                padding-bottom: 20px
+            &__subtitle
+                width: 500px
+            &__button
+                padding-bottom: 56px
+        &__C 
+            padding-top: 140px
+        &-block
+            &__subtitle 
+                display: block
+                font-size: 13px
+                line-height: 20px
+                width: 290px
+
+@media ( max-width: 1400px )
+    .container
+        max-width: 1320px
+        width: 95%
+        margin: auto
+    .blockC
+    
+@media ( max-width: 1280px )
+    .container
+        max-width: 1200px
+        width: 95%
+        margin: auto
+    .sectionC
+        background-size: 60px
+    .blockC
+        background-image: none
+        justify-content: space-around
+        &-text
+            padding-top: 140px
+            padding-right: 30px
+        &__C
+            padding-top: 120px
+        &-block
+            &__subtitle 
+                display: block
+                font-size: 13px
+                line-height: 20px
+                width: 260px
+
+@media ( max-width: 1200px )
+    .container
+        max-width: 1120px
+        width: 95%
+        margin: auto
+
+@media ( max-width: 1010px )
+    .container
+        max-width: 720px
+        width: 95%
+        margin: auto
+    .sectionC
+        background-size: 60px
+    .blockC
+        flex-direction: column
+        align-items: center
+        &-text
+            display: flex
+            flex-direction: column
+            align-items: center
+            padding-top: 40px
+            padding-right: 0px
+            &__title
+                text-align: center
+            &__subtitle
+                text-align: center
+            &__button
+                margin: auto
+        &__C
+            padding-top: 40px
+        &-block
+            &__subtitle 
+                display: block
+                font-size: 13px
+                line-height: 20px
+                width: 260px
+
+@media ( max-width: 740px )
+    .container
+        max-width: 322px
+        width: 95%
+        margin: auto
+    .blockC
+        margin: auto
+        width: 300px
+        flex-direction: column
+        align-items: center
+        &-text
+            display: flex
+            flex-direction: column
+            align-items: center
+            padding-top: 40px
+            padding-right: 0px
+            &__title
+                font-size: 30px
+                line-height: 40px
+                text-align: center
+                padding-bottom: 20px
+            &__subtitle
+                width: 300px
+                font-size: 13px
+                text-align: center
+            &__button
+                margin: auto
+        &__C
+            padding-top: 40px
+        &-block
+            &__subtitle 
+                display: block
+                font-size: 13px
+                line-height: 20px
+                width: 260px

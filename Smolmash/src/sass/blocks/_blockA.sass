@@ -1,0 +1,141 @@
+.navbar 
+    padding: 16px 0 16px 0
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &-ipad
+        display: flex
+        justify-content: space-between
+    &__menu
+        display: flex
+    &-content
+        display: flex
+        &__button
+            display: block
+            padding: 16px 36px
+    &-contacts
+        display: flex
+        flex-direction: column
+        align-items: right
+        margin-right: 40px
+        &__data
+            display: block
+            text-align: right
+            font-size: 13px
+            margin-bottom: 4px
+            color: #999999
+        &__phone
+            display: block
+            font-family: 'Marvin-visions-bold', Arial, Helvetica, sans-serif
+            color: #39393A
+            text-decoration: none
+            font-size: 20px
+            letter-spacing: 0.1em
+            transition: 0.3px
+            &:hover
+                color: #D71921
+
+.menu
+    &-block
+        display: flex
+        align-items: center
+        margin-left: 56px
+        font-size: 13px
+        &__link
+            color: #39393A
+            text-decoration: none 
+            transition: 0.3s
+            &:hover
+                color: #D71921
+
+
+@media ( max-width: 1680px )
+    .container
+        max-width: 1600px
+        width: 95%
+        margin: auto
+
+@media ( max-width: 1600px )
+    .container
+        max-width: 1520px
+        width: 95%
+        margin: auto
+
+@media ( max-width: 1440px )
+    .container
+        max-width: 1340px
+        width: 95%
+        margin: auto
+
+@media ( max-width: 1400px )
+    .container
+        max-width: 1320px
+        width: 95%
+        margin: auto
+    
+@media ( max-width: 1280px )
+    .container
+        max-width: 1200px
+        width: 95%
+        margin: auto
+    .navbar
+        &-logo
+            width: 100px
+        &-content
+            align-items: center
+        &-contacts
+            margin-right: 15px
+            &__data
+                margin-bottom: 1px
+    .menu
+        &-block
+            font-size: 12px
+            margin-left: 25px
+            
+@media ( max-width: 1200px )
+    .container
+        max-width: 1120px
+        width: 95%
+        margin: auto
+    .menu
+        &-block
+            margin-left: 15px
+
+@media ( max-width: 1010px )
+    .container
+        max-width: 720px
+        width: 95%
+        margin: auto
+        .navbar
+            flex-direction: column
+            &-ipad
+                flex-direction: column
+                align-items: center
+            &-logo
+                margin-bottom: 10px
+                width: 150px
+            &-text
+                order: 2
+            &-content
+                order: 1
+                margin-top: 10px
+                align-items: center
+            &-contacts
+                margin-right: 15px
+                &__data
+                    margin-bottom: 1px
+    .menu
+        padding-top: 15px
+        order: 2
+        &-block
+            font-size: 12px
+            margin-left: 25px
+
+@media ( max-width: 740px )
+    .container
+        max-width: 322px
+        width: 95%
+        margin: auto
+    .navbar 
+        display: none
+

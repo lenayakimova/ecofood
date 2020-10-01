@@ -1,0 +1,513 @@
+.blockK
+    background-image: url('../img/decorK.png')
+    background-repeat: no-repeat
+    background-position-x: 89.5%
+    &__cartAB
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+    &__block
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__title
+        padding: 100px 0 100px 0 
+    &__button
+        display: flex
+        font-size: 15px
+        color: #D71921
+        &:hover
+            color: #da484f
+    &-color 
+        display: block
+        transition: 0.3s
+        &:hover
+            padding-right: 10px
+    &-content 
+        display: flex
+        justify-content: space-between
+        &__cart
+            position: relative
+            width: 847px
+            height: 728px
+            background-image: url('../img/itemA.png')
+            background-position-x: center
+            &:after
+                content: ''
+                position: absolute
+                top: 0
+                left: 0
+                right: 0
+                bottom: 0
+                background: rgba(0,0,0,.2)
+                z-index: 2
+        &__text
+            z-index: 3
+            position: absolute
+            padding: 600px 0 0 48px
+            display: block
+        &__title
+            display: block
+            font-family: 'Roboto-Bold'
+            font-size: 24px
+            color: #ffffff
+            padding: 0 0 12px 0
+        &__subtitle
+            color: #ffffff
+            width: 531px
+            font-size: 15px
+            display: block
+            line-height: 24px
+        &__cartA
+            position: relative
+            width: 781px
+            height: 322px
+            background-image: url('../img/itemB.png')
+            background-position-x: center
+            &:after
+                content: ''
+                position: absolute
+                top: 0
+                left: 0
+                right: 0
+                bottom: 0
+                background: rgba(0,0,0,.2)
+                z-index: 2
+        &__textA
+            z-index: 3
+            position: absolute
+            padding: 220px 0 0 48px
+            display: block
+        &__titleA
+            display: block
+            font-family: 'Roboto-Bold'
+            font-size: 24px
+            color: #ffffff
+            padding: 0 0 12px 0
+        &__subtitleA
+            display: block
+            color: #ffffff
+            width: 531px
+            font-size: 15px
+            line-height: 24px
+
+        &__cartB
+            position: relative
+            width: 781px
+            height: 322px
+            background-image: url('../img/itemB.png')
+            background-position-x: center
+            &:after
+                content: ''
+                position: absolute
+                top: 0
+                left: 0
+                right: 0
+                bottom: 0
+                background: rgba(0,0,0,.2)
+                z-index: 2
+        &__textB
+            z-index: 3
+            position: absolute
+            padding: 220px 0 0 48px
+            display: block
+        &__titleB
+            display: block
+            font-family: 'Roboto-Bold'
+            font-size: 24px
+            color: #ffffff
+            padding: 0 0 12px 0
+        &__subtitleB
+            display: block
+            color: #ffffff
+            width: 531px
+            font-size: 15px
+            line-height: 24px
+
+@media ( max-width: 1680px )
+    .container
+        max-width: 1600px
+        width: 95%
+        margin: auto
+    .blockK
+        &__cartAB
+        &__block
+        &__title
+            font-size: 38px
+            padding: 100px 0 100px 0 
+        &__button
+            display: flex
+            font-size: 14px
+            color: #D71921
+            &:hover
+                color: #da484f
+        &-color 
+            display: block
+            transition: 0.3s
+            &:hover
+                padding-right: 10px
+        &-content 
+            &__cart
+                position: relative
+                width: 700px
+                height: 560px
+                background-image: url('../img/itemA.png')
+                background-size: 700px
+                background-position-x: center
+                &:after
+                    content: ''
+                    position: absolute
+                    top: 0
+                    left: 0
+                    right: 0
+                    bottom: 0
+                    background: rgba(0,0,0,.2)
+                    z-index: 2
+            &__text
+                z-index: 3
+                position: absolute
+                padding: 420px 0 0 48px
+                display: block
+            &__title
+                display: block
+                font-family: 'Roboto-Bold'
+                font-size: 24px
+                color: #ffffff
+                padding: 0 0 12px 0
+            &__subtitle
+                color: #ffffff
+                width: 450px
+                font-size: 15px
+                display: block
+                line-height: 24px
+            &__cartA
+                position: relative
+                width: 681px
+                height: 260px
+                background-image: url('../img/itemB.png')
+                background-size: 681px
+                background-position-x: center
+                &:after
+                    content: ''
+                    position: absolute
+                    top: 0
+                    left: 0
+                    right: 0
+                    bottom: 0
+                    background: rgba(0,0,0,.2)
+                    z-index: 2
+            &__textA
+                z-index: 3
+                position: absolute
+                padding: 170px 0 0 48px
+                display: block
+
+            &__cartB
+                position: relative
+                width: 681px
+                height: 260px
+                background-image: url('../img/itemC.png')
+                background-size: 681px
+                background-position-x: center
+                &:after
+                    content: ''
+                    position: absolute
+                    top: 0
+                    left: 0
+                    right: 0
+                    bottom: 0
+                    background: rgba(0,0,0,.2)
+                    z-index: 2
+            &__textB
+                z-index: 3
+                position: absolute
+                padding: 170px 0 0 48px
+                display: block
+            &__titleB
+                display: block
+                font-family: 'Roboto-Bold'
+                font-size: 24px
+                color: #ffffff
+                padding: 0 0 12px 0
+            &__subtitleB
+                display: block
+                color: #ffffff
+                width: 531px
+                font-size: 15px
+                line-height: 24px
+@media ( max-width: 1600px )
+    .container
+        max-width: 1520px
+        width: 95%
+        margin: auto
+    .blockK
+        &__cartAB
+        &__block
+        &__title
+            font-size: 38px
+            padding: 100px 0 100px 0 
+        &-color 
+            display: block
+            transition: 0.3s
+            &:hover
+                padding-right: 10px
+        &-content 
+            &__cart
+                position: relative
+                width: 700px
+                height: 560px
+                background-image: url('../img/itemA.png')
+                background-size: 700px
+                background-position-x: center
+            &__text
+                z-index: 3
+                position: absolute
+                padding: 420px 0 0 48px
+                display: block
+            &__title
+                display: block
+                font-family: 'Roboto-Bold'
+                font-size: 24px
+                color: #ffffff
+                padding: 0 0 12px 0
+            &__subtitle
+                color: #ffffff
+                width: 450px
+                font-size: 15px
+                display: block
+                line-height: 24px
+            &__cartA
+                position: relative
+                width: 681px
+                height: 260px
+                background-image: url('../img/itemB.png')
+                background-size: 681px
+                background-position-x: center
+                &:after
+                    content: ''
+                    position: absolute
+                    top: 0
+                    left: 0
+                    right: 0
+                    bottom: 0
+                    background: rgba(0,0,0,.2)
+                    z-index: 2
+            &__textA
+                z-index: 3
+                position: absolute
+                padding: 170px 0 0 48px
+                display: block
+
+            &__cartB
+                position: relative
+                width: 681px
+                height: 260px
+                background-image: url('../img/itemC.png')
+                background-size: 681px
+                background-position-x: center
+                &:after
+                    content: ''
+                    position: absolute
+                    top: 0
+                    left: 0
+                    right: 0
+                    bottom: 0
+                    background: rgba(0,0,0,.2)
+                    z-index: 2
+            &__textB
+                z-index: 3
+                position: absolute
+                padding: 170px 0 0 48px
+                display: block
+            &__titleB
+                display: block
+                font-family: 'Roboto-Bold'
+                font-size: 24px
+                color: #ffffff
+                padding: 0 0 12px 0
+            &__subtitleB
+                display: block
+                color: #ffffff
+                width: 531px
+                font-size: 15px
+                line-height: 24px
+
+@media ( max-width: 1440px )
+    .container
+        max-width: 1340px
+        width: 95%
+        margin: auto
+    .blockK
+        &-content 
+                &__cart
+                    position: relative
+                    width: 600px
+                    height: 560px
+                    background-image: url('../img/itemA.png')
+                    background-size: 700px
+                    background-position-x: center
+
+@media ( max-width: 1400px )
+    .container
+        max-width: 1320px
+        width: 95%
+        margin: auto
+    
+@media ( max-width: 1280px )
+    .container
+        max-width: 1200px
+        width: 95%
+        margin: auto
+    .blockK
+        background-image: url('../img/decorK.png')
+        background-repeat: no-repeat
+        background-position-x: 70.6%
+        &__cartAB
+        &__block
+        &__title
+            font-size: 38px
+            padding: 100px 0 100px 0 
+        &__button
+            display: flex
+            font-size: 14px
+            color: #D71921
+            &:hover
+                color: #da484f
+        &-color 
+            display: block
+            transition: 0.3s
+            &:hover
+                padding-right: 10px
+        &-content 
+            &__cart
+                
+                height: 500px
+                background-size: 700px
+            &__text
+                padding: 390px 0 0 48px
+            &__title
+                
+                padding: 0 0 5px 0
+            &__subtitle
+                width: 350px
+                line-height: 18px
+            &__cartA
+                width: 481px
+                height: 245px
+                background-size: 581px
+            &__textA
+                position: absolute
+                padding: 150px 0 0 48px
+            &__titleA
+                padding: 0 0 2px 0
+            &__subtitleA
+                width: 400px
+                line-height: 18px
+            &__cartB
+                width: 481px
+                height: 245px
+                background-size: 581px
+            &__textB
+                padding: 150px 0 0 48px
+            &__titleB
+                font-size: 24px
+                padding: 0 0 2px 0
+            &__subtitleB
+                width: 400px
+                line-height: 18px
+
+@media ( max-width: 1200px )
+    .container
+        max-width: 1120px
+        width: 95%
+        margin: auto
+@media ( max-width: 1180px )
+    .blockK
+        &-content 
+            &__cart
+                width: 500px
+            &__cartA, &__cartB
+                width: 450px
+            
+@media ( max-width: 1010px )
+    .container
+        max-width: 720px
+        width: 95%
+        margin: auto
+    .blockK
+        background-image: none
+        &__title
+            font-size: 38px
+            padding: 100px 0 100px 0 
+        &__button
+            display: flex
+            font-size: 14px
+            color: #D71921
+            &:hover
+                color: #da484f
+        &-color 
+            display: block
+            transition: 0.3s
+            &:hover
+                padding-right: 10px
+        &-content 
+            &__cart
+                width: 350px
+                height: 390px
+                background-size: 450px
+            &__text
+                padding: 250px 0 0 20px
+            &__title
+                font-size: 20px
+                padding: 0 0 5px 0
+            &__subtitle
+                font-size: 14px
+                width: 250px
+                line-height: 18px
+            &__cartA
+                width: 330px
+                height: 190px
+                background-size: 460px
+            &__textA
+                position: absolute
+                padding: 80px 0 0 20px
+            &__titleA
+                font-size: 20px
+                padding: 0 0 2px 0
+            &__subtitleA
+                font-size: 14px
+                width: 250px
+                line-height: 18px
+            &__cartB
+                width: 330px
+                height: 190px
+                background-size: 460px
+            &__textB
+                padding: 80px 0 0 20px
+            &__titleB
+                font-size: 20px
+                padding: 0 0 2px 0
+            &__subtitleB
+                font-size: 14px
+                width: 250px
+                line-height: 18px
+
+@media ( max-width: 740px )
+    .container
+        max-width: 400px
+        width: 95%
+        margin: auto  
+    .blockK
+        &__button
+            font-size: 13px
+        &__title
+            width: 100px
+            font-size: 30px
+        &-content
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            &__cartA, &__cartB 
+                margin-top: 25px 
+                width: 350px     

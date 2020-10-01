@@ -1,0 +1,151 @@
+.sliderB
+    padding-top: 150px
+    position: relative
+    &__content
+        height: 240px
+    &__slide:focus
+        outline: none
+    &__B
+        display: flex
+        justify-content: space-around
+    &-block
+    &-unitA
+        margin: auto
+        display: flex
+        align-items: center
+        padding-bottom: 110px
+        &__numeral
+            display: block
+            font-size: 180px
+            margin-right: 20px
+            font-family: 'Marvin-visions-bold'
+            color: #D71921
+        &__name
+            display: block
+            color: #D71921
+            width: 20px
+            font-size: 13px
+    &-unitB
+        margin: auto
+        display: flex
+        flex-direction: column
+        &__title
+            display: block
+            font-family: 'Roboto-Bold'
+            font-size: 24px
+            margin-bottom: 12px
+        &__subtitle
+            display: block
+            font-size: 15px
+            line-height: 24px
+            margin-bottom: 103px
+            width: 535px
+        &__number
+            display: block
+            font-size: 13px
+            padding-bottom: 80px
+            color: #999999
+    &-arrows
+        z-index: 4
+        width: 169px
+        position: absolute
+        margin: auto
+        top: 133px
+        left: 0
+        right: 138px
+        bottom: 0
+        display: flex
+        justify-content: space-around
+        height: 72px
+        background-color: #3A3A39
+        text-decoration: none
+        border: none
+        &__left
+            cursor: pointer
+            background-color: #3A3A39
+            border: none
+            &:focus
+                outline: none
+        &__right
+            cursor: pointer
+            background-color: #3A3A39
+            border: none
+            &:focus
+                outline: none
+
+@media ( max-width: 1800px )  
+    .sliderB
+        &-arrows
+           top: 320px 
+           right: 95px
+@media ( max-width: 1680px )
+    .sliderB
+        &-arrows
+           top: 342px 
+           right: 170px
+        &-unitA
+        &-unitB
+            &__subtitle
+                width: 450px
+        &__content
+            height: 240px
+            padding-bottom: 0
+@media ( max-width: 1600px )
+    .sliderB
+         &-arrows
+           top: 373px
+@media ( max-width: 1440px )
+    .sliderB
+@media ( max-width: 1400px )
+    .sliderB
+@media ( max-width: 1280px )
+    .sliderB
+        &-arrows
+           top: 390px 
+           right: 170px
+        &-unitA
+        &-unitB
+            &__subtitle
+                width: 450px
+        &__content
+            height: 240px
+            padding-bottom: 0
+@media ( max-width: 1200px )
+    .sliderB
+        &-unitA
+            padding-bottom: 60px
+        &__content
+            height: 580px
+        &__B
+            display: flex
+            flex-direction: column
+        &-arrows
+           top: 500px 
+           left: 200px
+           right: 0px
+@media ( max-width: 1010px )
+    .sliderB
+@media ( max-width: 740px )
+    .sliderB
+        padding-top: 40px
+        background-color: #e9e9e9
+        &-arrows
+           top: 320px 
+           right: 170px
+        &-unitA
+        &__content
+            height: 620px
+        &-unitB
+            &__subtitle
+                width: 280px
+            &__number
+        &__content
+            padding-bottom: 0
+        &-arrows
+           width: 120px
+           height: 50px
+           top: 560px 
+           left: 200px
+           right: 0px
+        &__B
+            width: 300px
